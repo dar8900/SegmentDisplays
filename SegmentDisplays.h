@@ -16,7 +16,7 @@
 void SegDispBegin();
 void SegDispPrintInt(uint32_t Number);
 void SegDispPrintInt(int32_t Number);
-void SegDispPrintFl(float Number);
+void SegDispPrintFl(float Number, int Decimal);
 void SegDispPrintString(char *string);
 void SegDispReset();
 void SegDispSetIntensity(uint8_t Intensity);

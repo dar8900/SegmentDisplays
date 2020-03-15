@@ -23,10 +23,10 @@ void SegDispPrintInt(int32_t Number)
 	display.sendString(numstr);		
 }
 
-void SegDispPrintFl(float Number)
+void SegDispPrintFl(float Number, int Decimal)
 {
 	char numstr[MAX_CHARS];
-	dtostrf(Number, MAX_CHARS, 2, numstr);
+	dtostrf(Number, MAX_CHARS, Decimal, numstr);
 	display.sendString(numstr);	
 }
 
